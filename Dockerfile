@@ -1,4 +1,4 @@
-FROM salamandra/confd
+FROM salamandra/rsyslog
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -qq
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python python-dev python-pip
